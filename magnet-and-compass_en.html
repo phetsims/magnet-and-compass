@@ -36,15 +36,27 @@
         "requirejsNamespace": "MAGNET_AND_COMPASS",
         "simulation": true,
         "runnable": true,
-        "readmeCreatedManually": true,
         "supportedBrands": [
           "phet",
+          "phet-io",
           "adapted-from-phet"
+        ],
+        "phetLibs": [
+          "faradays-electromagnetic-lab"
         ],
         "supportsOutputJS": true,
         "simFeatures": {
-          "supportsDynamicLocale": true
-        }
+          "supportsSound": true,
+          "supportsDynamicLocale": true,
+          "supportsInteractiveDescription": true,
+          "colorProfiles": [
+            "default",
+            "projector"
+          ]
+        },
+        "screenNameKeys": [
+          "FARADAYS_ELECTROMAGNETIC_LAB/screen.barMagnet"
+        ]
       },
       "eslintConfig": {
         "extends": "../chipper/eslint/sim_eslintrc.js",
@@ -72,16 +84,20 @@
   window.phet.chipper.stringRepos =
     [
       {
+        "repo": "faradays-electromagnetic-lab",
+        "requirejsNamespace": "FARADAYS_ELECTROMAGNETIC_LAB"
+      },
+      {
         "repo": "joist",
         "requirejsNamespace": "JOIST"
       },
       {
-        "repo": "scenery-phet",
-        "requirejsNamespace": "SCENERY_PHET"
-      },
-      {
         "repo": "magnet-and-compass",
         "requirejsNamespace": "MAGNET_AND_COMPASS"
+      },
+      {
+        "repo": "scenery-phet",
+        "requirejsNamespace": "SCENERY_PHET"
       },
       {
         "repo": "sun",
