@@ -16,7 +16,8 @@ import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/F
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import FELPreferencesNode from '../../faradays-electromagnetic-lab/js/common/view/preferences/FELPreferencesNode.js';
 
-// If addEarthCheckbox query parameter was not in the URL, change the default.
+// Unlike Faraday's Electromagnetic Lab, the 'Earth' checkbox should be visible by default.
+// See https://github.com/phetsims/faradays-electromagnetic-lab/issues/23
 if ( !QueryStringMachine.containsKey( 'addEarthCheckbox' ) ) {
   FELPreferences.addEarthCheckboxProperty.value = true;
 }
