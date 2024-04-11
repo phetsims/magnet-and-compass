@@ -24,6 +24,8 @@ simLauncher.launch( () => {
   const screens = [
     new BarMagnetScreen( Tandem.ROOT.createTandem( 'barMagnetScreen' ) )
   ];
-  const sim = new FELSim( titleStringProperty, screens );
+  const sim = new FELSim( titleStringProperty, screens, {
+    hasCurrentFlowFeature: false
+  } );
   sim.start();
 } );
