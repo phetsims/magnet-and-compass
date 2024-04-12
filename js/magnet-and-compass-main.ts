@@ -12,20 +12,21 @@ import BarMagnetScreen from '../../faradays-electromagnetic-lab/js/bar-magnet/Ba
 import MagnetAndCompassStrings from './MagnetAndCompassStrings.js';
 import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
 import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
+import FELQueryParameters from '../../faradays-electromagnetic-lab/js/common/FELQueryParameters.js';
 
-// Unlike Faraday's Electromagnetic Lab, the 'Earth' checkbox should be visible by default.
+// The 'Earth' checkbox should be visible by default, unless specified otherwise in the URL.
 // See https://github.com/phetsims/faradays-electromagnetic-lab/issues/23
-if ( !QueryStringMachine.containsKey( 'addEarthCheckbox' ) ) {
-  FELPreferences.addEarthCheckboxProperty.value = true;
-}
+const addEarthCheckbox = QueryStringMachine.containsKey( 'addEarthCheckbox' ) ? FELQueryParameters.addEarthCheckbox : true;
 
 simLauncher.launch( () => {
   const titleStringProperty = MagnetAndCompassStrings[ 'magnet-and-compass' ].titleStringProperty;
-  const screens = [
-    new BarMagnetScreen( Tandem.ROOT.createTandem( 'barMagnetScreen' ) )
-  ];
-  const sim = new FELSim( titleStringProperty, screens, {
-    hasCurrentFlowFeature: false
+  const preferences = new FELPreferences( {
+    hasCurrentFlowFeature: false,
+    addEarthCheckbox: addEarthCheckbox
   } );
+  const screens = [
+    new BarMagnetScreen( preferences, Tandem.ROOT.createTandem( 'barMagnetScreen' ) )
+  ];
+  const sim = new FELSim( titleStringProperty, screens, preferences );
   sim.start();
 } );
