@@ -1,5 +1,5 @@
 {
-  "comment": "# magnet-and-compass 1.0.0-rc.1 Fri Jul 26 2024 16:25:34 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# magnet-and-compass 1.0.0-rc.2 Fri Jul 26 2024 17:01:46 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -26,7 +26,7 @@
   },
   "faradays-electromagnetic-lab": {
     "sha": "aa5e55f98f5d93e7be10e12a87306424051739ef",
-    "branch": "magnet-and-compass-1.0"
+    "branch": "HEAD"
   },
   "joist": {
     "sha": "582adcdd333a534342fad96d02b49937c16dd940",
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "44fe2210ef6a68da69323ae054297ad10ebc65ff",
+    "sha": "7a67d03f9d37b71e06d92bbf213d92abdf08dd7a",
     "branch": "1.0"
   },
   "perennial-alias": {
