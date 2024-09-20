@@ -57,7 +57,7 @@
         },
         "parserOptions": {
           "project": [
-            "../magnet-and-compass/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
