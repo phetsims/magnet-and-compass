@@ -42,7 +42,8 @@
           "adapted-from-phet"
         ],
         "phetLibs": [
-          "faradays-electromagnetic-lab"
+          "faradays-electromagnetic-lab",
+          "bamboo"
         ],
         "phet-io": {
           "compareDesignedAPIChanges": true
@@ -56,32 +57,16 @@
             "default",
             "projector"
           ]
-        }
-      },
-      "eslintConfig": {
-        "extends": "../chipper/eslint/sim_eslintrc.js",
-        "overrides": [
-          {
-            "files": [
-              "**/*.ts"
-            ],
-            "rules": {
-              "@typescript-eslint/ban-ts-comment": [
-                "error",
-                {
-                  "ts-expect-error": true,
-                  "ts-ignore": true,
-                  "ts-check": true,
-                  "ts-nocheck": true
-                }
-              ]
-            }
-          }
-        ]
+        },
+        "published": true
       }
     };
   window.phet.chipper.stringRepos =
     [
+      {
+        "repo": "bamboo",
+        "requirejsNamespace": "BAMBOO"
+      },
       {
         "repo": "faradays-electromagnetic-lab",
         "requirejsNamespace": "FARADAYS_ELECTROMAGNETIC_LAB"
