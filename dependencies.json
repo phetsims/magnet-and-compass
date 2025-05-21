@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "8c764893488c3d4c2319bbffa3535f1dc2ea7874",
+    "sha": "f20dd0e11f43dec03c536c3dbb8dcebb45bed901",
     "branch": "HEAD"
   },
   "dot": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "25f8ef048be6440aa74591b414c6640d26f463ce",
+    "sha": "f4b8b9667a08f9d4f779736e835da08fe699e922",
     "branch": "1.0"
   },
   "perennial-alias": {
