@@ -1,5 +1,5 @@
 {
-  "comment": "# magnet-and-compass 1.0.5-rc.1 Tue Feb 03 2026 08:26:49 GMT-0500 (Eastern Standard Time)",
+  "comment": "# magnet-and-compass 1.0.5 Fri Feb 06 2026 16:44:34 GMT-0500 (Eastern Standard Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "bcab612bca4f382249d70fa827340b94db0aa7d8",
+    "sha": "39ea2f9dd5e3d5d3ac052abf19413888f5a2f8cd",
     "branch": "1.0"
   },
   "perennial-alias": {
