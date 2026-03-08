@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "39ea2f9dd5e3d5d3ac052abf19413888f5a2f8cd",
+    "sha": "771cf241242d45cd40b0ddafed656c34a65db452",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "phetcommon": {
-    "sha": "54b41ebbdddd743650d557910ec33b46b2b10317",
+    "sha": "ebacd2a05011246d52478881a1b7bb5d06483d2d",
     "branch": "HEAD"
   },
   "phetmarks": {
