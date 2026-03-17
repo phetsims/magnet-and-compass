@@ -37,11 +37,11 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "5ca6fa01879299e9d04ca56d2da87de71c997227",
+    "sha": "6da7ebebdda7fefcd2b86a629ec5a7c706277b9a",
     "branch": "1.0"
   },
   "perennial-alias": {
-    "sha": "bebb0703e255ee17620c000876c6bfa4ea419549",
+    "sha": "79ae6bfb365e78005e59572d3f41baf3002b0191",
     "branch": "HEAD"
   },
   "phet-core": {
