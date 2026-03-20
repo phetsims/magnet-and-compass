@@ -22,6 +22,4 @@ type StringsType = {
 
 const MagnetAndCompassStrings = getStringModule( 'MAGNET_AND_COMPASS' ) as StringsType;
 
-magnetAndCompass.register( 'MagnetAndCompassStrings', MagnetAndCompassStrings );
-
 export default MagnetAndCompassStrings;
