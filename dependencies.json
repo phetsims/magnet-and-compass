@@ -13,7 +13,7 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "683ceaa87012865dee03cf7906374e3861e495a2",
+    "sha": "d087d461e5be8441599996782a6941c77d6b6f8e",
     "branch": "HEAD"
   },
   "chipper": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "8dcb6f33b8b1096a521f01b85e5828eb03f2e3f0",
+    "sha": "f16dd1049639da81d7e1242c8acb562120bac197",
     "branch": "1.0"
   },
   "perennial-alias": {
