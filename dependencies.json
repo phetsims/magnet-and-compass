@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnet-and-compass": {
-    "sha": "bc8d6fe0bd5ce162cca9994ae3b059df4e430fad",
+    "sha": "a311ad0c0873eb7459cbf82e94c691c7c7197da4",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -73,7 +73,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "547324ed0886a87d9b398e7ee800c2c00d0a3a49",
+    "sha": "d684b938f2fe6b1b596eb4b43b34acd9e07b8fa5",
     "branch": "HEAD"
   },
   "scenery-phet": {
